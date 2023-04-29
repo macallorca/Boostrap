@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.imag{
+    margin-left: 200px;   
+}
+
+
+
+.main-image {
+    background-image: url(../img/ba1.jpg);
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.title {
+    text-align: right;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    padding: 100px; 
+}
+.text-white {
+    text-align: right;
+    font-size: 2rem;
+    color: rgb(255, 255, 255); 
+    padding: 50px; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+  }
+
+
+.container {
+    max-width:max-content ; 
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: flex !important; /* ETIQUETA QUE POSICIONA UNO AL LADO DEL OTRO */
+    flex-wrap: wrap;
+}
+
+.card-text{
+    text-align: left;
+}
+
+
+.caja{
+    display: flex;
+}
+
+
+.imagen{
+   max-width: 1100px;
+}
+
+.caja1{
+    background-color: rgb(54, 55, 66);
+    margin-left: 2px;
+}
+
+.izquierda{
+    text-align: start;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    margin: 25px;
+
+}
+
+.bottom{
+    background-color:  rgb(60, 60, 68);
+    border-color: white;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    margin: 25px;
+}
+
+
+.caja2{
+    text-align: center; 
+}
+
+.titulo2{
+
+    font-size: 3em;
+}
+
+
+
+.boton{
+    background-color: rgb(141, 189, 53);
+    border-color:  rgb(141, 189, 53);
+    color: white;
+}
+
