@@ -96,10 +96,51 @@ p {
 }
 
 
+.form-section {
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__datos {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.form__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    gap: 10px;
+}
+
+.form__container input {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: .2px solid #ced4da;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+
+
+
 
 .boton{
     background-color: rgb(141, 189, 53);
-    border-color:  rgb(141, 189, 53);
+    border: none;
+    border-radius: 5%;
+    margin-top: 10px;
     color: white;
 }
 

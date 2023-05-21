@@ -1,0 +1,149 @@
+.body {
+    background-size: 100vw 100vh;
+}
+
+.container {
+    max-width:max-content ; 
+    position: relative;
+    width: 1000px;
+    height: auto;
+    display: flex !important; /* ETIQUETA QUE POSICIONA UNO AL LADO DEL OTRO */
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 0%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-subtitle {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+
+
+.form-section {
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_datos {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.form__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    gap: 10px;
+}
+
+
+.name {
+    position: relative;
+    width: %;
+    height: 45px;
+    border-color: aliceblue;
+    border-radius: 3px;
+    font-size: 15px;
+
+}
+
+.email {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border-color: aliceblue;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+ 
+
+.form__container input { /* este input afecta al mail */
+    position: relative;
+    width: 100%;  /* si pones 50% quedan todos a la mitad pero el mail tambien */
+    padding: 10px;
+    border: .2px solid #ced4da;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.cantidad {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 45px;
+}
+
+
+.categoria {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 45px;
+}
+
+
+
+.btn-1 {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    background-color: rgb(141, 189, 53);
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
+    padding-left: 9%;
+    padding-right: 10%;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: larger;
+    width: 50%;
+}
+
+.btn-2 {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    display: inline-block;
+    background-color: rgb(141, 189, 53);
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
+    padding-left: 9%;
+    padding-right: 9%;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    width: 50%;
+
+}
+
+
+
